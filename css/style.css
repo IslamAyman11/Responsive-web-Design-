@@ -1,0 +1,160 @@
+/* Ganeral */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #000; */
+}
+:root{
+    --maincolor: #a67ecf;
+}
+/* Navbar */
+.bg-light{
+    background-color: #fff ;
+}
+.logo-icon{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--maincolor) !important;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: var(--maincolor) !important;
+}
+.navbar-light .navbar-nav li:hover {
+    color: var(--maincolor);
+}
+.navbar-light .navbar-nav li .nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Home */
+.carousel{
+    height: 500px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-item img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-27%);
+}
+section.about{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.about h1, .product-content h1{
+    font-size: 2em;
+    color: var(--maincolor);
+    text-transform: capitalize;
+}
+.about p, .product-content p{
+    line-height: 1.6;
+    color: #888;  
+    
+}
+.about .row img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.row .imag{
+    background-image: url(../img/about2.webp);
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row .imag p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    padding-top: 50%;
+    padding-bottom: 20px ;
+    padding-right: 30px ;
+    padding-left: 30px ;
+    margin: auto;
+    background-color: #333;
+    opacity: .9;
+}
+.about .row .para{
+    margin-bottom: 80px;
+}
+/* services */
+section.services{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/about2.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.services-p{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin-top: 15%;
+    display: inline-block;
+    padding: 15px;
+    color: #a67ecf;
+}
+.product{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.product img{
+    width: 100%;
+}
+.choose{
+    width: 100%;
+    height: auto;
+    margin: 70px 0;
+    padding: 50px 0;
+    background-color: #fbfbfb;
+}
+section.choose i{
+    position: relative;
+    top:20px;
+    font-size: 50px;
+    padding: 20px 0;
+    width: 20%;
+}
+section.choose i, .choose .part {
+    float: left;
+}
+.choose .part{
+    width: 80%;
+}
+.choose .part p, .choose .part h2{
+    margin: 0;
+    text-align: left;
+}
+.choose .part h2{
+    color: #a67ecf;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Media query */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
